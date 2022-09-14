@@ -1,0 +1,10 @@
+.logo {
+
+  &_img-header {
+    width: 86%;
+
+    @include small {
+      width: 70%;
+    }
+  }
+}

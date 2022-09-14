@@ -1,0 +1,41 @@
+.btn-link {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 13px;
+
+  &_black {
+    color: $whiteColor;
+    background-color: $blackColor;
+    padding: 11px 29px 10px 22px;
+    letter-spacing: 0.4px;
+
+    @include large {
+      font-size: 15px;
+      color: $darkGrey;
+      background-color: inherit;
+      border: none;
+      padding: 0;
+    }
+  }
+
+  &_transparent {
+    background-color: transparent;
+    border: 1px solid $blackColor;
+    color: inherit;
+    padding: 11px 34px 10px 32px;
+
+    &:hover {
+      border-color: $darkGrey;
+    }
+
+    @include large {
+      padding: 7px 15px;
+      font-size: 12px;
+    }
+
+    @include small {
+      padding: 3px 14px;
+      font-size: 9px;
+    }
+  }
+}

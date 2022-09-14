@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font: 400 $mainFontSize $font;
+  color: $blackColor;
+  line-height: $lineHeight;
+  //background-color: $mainBgColor;
+  background-color: $whiteColor;
+
+
+  @include large {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  @include small {
+    font-size: 12px;
+  }
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+a:hover {
+  display: inline-block;
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  cursor: pointer;
+  color: $darkGrey;
+}
