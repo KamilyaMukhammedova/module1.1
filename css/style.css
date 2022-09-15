@@ -216,23 +216,8 @@ a:hover {
     text-align: center;
   }
 }
-.main-block__logo-text {
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  line-height: 20px;
-  font-size: 14px;
+.main-block__small-text {
   margin-top: 12px;
-}
-@media screen and (max-width: 997px) {
-  .main-block__logo-text {
-    font-size: 12px;
-    line-height: 17px;
-  }
-}
-@media screen and (max-width: 576px) {
-  .main-block__logo-text {
-    font-size: 8px;
-  }
 }
 .main-block__title {
   font-size: 64px;
@@ -398,6 +383,11 @@ a:hover {
     line-height: 11px;
   }
 }
+@media screen and (max-width: 576px) {
+  .our-firm__author-name {
+    font-size: 13px;
+  }
+}
 .our-firm__author-position {
   font-size: 14px;
   line-height: 14px;
@@ -425,5 +415,79 @@ a:hover {
 @media screen and (max-width: 576px) {
   .small-title-block__title {
     font-size: 27px;
+  }
+}
+
+.small-text {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 20px;
+  font-size: 14px;
+}
+@media screen and (max-width: 997px) {
+  .small-text {
+    font-size: 12px;
+    line-height: 17px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .small-text {
+    font-size: 9px;
+  }
+}
+
+.house-block {
+  position: relative;
+}
+@media screen and (max-width: 576px) {
+  .house-block {
+    padding-bottom: 15%;
+  }
+}
+.house-block__inner {
+  padding: 21% 0 20.6% 0;
+}
+@media screen and (max-width: 768px) {
+  .house-block__inner {
+    padding: 20.5% 0;
+  }
+}
+.house-block_bg-house {
+  background: url(../../images/house.jpg) 50% 50%/100% no-repeat;
+}
+.house-block__content {
+  width: 19%;
+  position: absolute;
+  top: 42%;
+  right: 6%;
+}
+@media screen and (max-width: 768px) {
+  .house-block__content {
+    width: 27%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .house-block__content {
+    width: 100%;
+    top: 77%;
+    right: 0;
+    text-align: center;
+    padding: 0 10px;
+  }
+}
+.house-block__text {
+  margin-top: 0;
+}
+@media screen and (max-width: 576px) {
+  .house-block__text {
+    font-size: 11px;
+  }
+}
+.house-block__small-text {
+  margin-bottom: 0;
+}
+@media screen and (max-width: 997px) {
+  .house-block__small-text {
+    margin-bottom: 5px;
   }
 }

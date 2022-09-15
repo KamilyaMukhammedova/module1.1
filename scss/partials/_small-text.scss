@@ -1,0 +1,15 @@
+.small-text {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 20px;
+  font-size: 14px;
+
+  @include large {
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+  @include small {
+    font-size: 9px;
+  }
+}
