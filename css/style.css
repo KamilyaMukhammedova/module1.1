@@ -19,7 +19,7 @@ body {
 }
 @media screen and (max-width: 576px) {
   body {
-    font-size: 12px;
+    font-size: 13px;
   }
 }
 
@@ -297,5 +297,133 @@ a:hover {
 @media screen and (max-width: 997px) {
   .main-block__btn-link {
     margin: 0;
+  }
+}
+
+.our-firm {
+  margin-top: 5%;
+  padding-bottom: 9%;
+}
+@media screen and (max-width: 768px) {
+  .our-firm {
+    margin-top: 2%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .our-firm {
+    text-align: center;
+  }
+}
+.our-firm__inner-flex {
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and (max-width: 768px) {
+  .our-firm__inner-flex {
+    display: block;
+    padding: 15px 26px;
+  }
+}
+.our-firm__small-title-block {
+  width: 40%;
+  padding: 18px 0 0 17.5%;
+}
+@media screen and (max-width: 768px) {
+  .our-firm__small-title-block {
+    padding: 0;
+    width: 100%;
+  }
+}
+.our-firm__content-block {
+  width: 60%;
+  padding: 6px 18% 0 0;
+}
+@media screen and (max-width: 768px) {
+  .our-firm__content-block {
+    padding: 0;
+    width: 100%;
+  }
+}
+.our-firm__text {
+  margin-bottom: 0;
+}
+.our-firm_mt {
+  margin-top: 10px;
+}
+.our-firm__author-block {
+  display: flex;
+  margin-top: 19px;
+  align-items: center;
+  width: 300px;
+}
+@media screen and (max-width: 576px) {
+  .our-firm__author-block {
+    justify-content: center;
+    margin: 19px auto 0;
+    width: 250px;
+  }
+}
+.our-firm__img {
+  width: 27.5%;
+  height: auto;
+  margin-right: 32px;
+}
+@media screen and (max-width: 576px) {
+  .our-firm__img {
+    width: 23.5%;
+    margin-right: 10px;
+  }
+}
+.our-firm__author-info {
+  margin-top: 10px;
+}
+@media screen and (max-width: 576px) {
+  .our-firm__author-info {
+    text-align: left;
+  }
+}
+.our-firm__author-name {
+  font-size: 17px;
+  line-height: 9px;
+  display: block;
+}
+@media screen and (max-width: 997px) {
+  .our-firm__author-name {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .our-firm__author-name {
+    font-size: 15px;
+    line-height: 11px;
+  }
+}
+.our-firm__author-position {
+  font-size: 14px;
+  line-height: 14px;
+}
+@media screen and (max-width: 997px) {
+  .our-firm__author-position {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .our-firm__author-position {
+    font-size: 12px;
+  }
+}
+
+.small-title-block__title {
+  font-size: 32px;
+  line-height: 38px;
+}
+@media screen and (max-width: 768px) {
+  .small-title-block__title {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .small-title-block__title {
+    font-size: 27px;
   }
 }

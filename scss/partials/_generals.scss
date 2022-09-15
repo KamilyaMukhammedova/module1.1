@@ -19,7 +19,7 @@ body {
   }
 
   @include small {
-    font-size: 12px;
+    font-size: 13px;
   }
 }
 
@@ -36,3 +36,4 @@ a:hover {
   cursor: pointer;
   color: $darkGrey;
 }
+

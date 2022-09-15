@@ -1,0 +1,14 @@
+.small-title-block {
+  &__title {
+    font-size: 32px;
+    line-height: 38px;
+
+    @include medium {
+      font-size: 30px;
+    }
+
+    @include small {
+      font-size: 27px;
+    }
+  }
+}
