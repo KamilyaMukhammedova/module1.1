@@ -12,7 +12,7 @@
     }
 
     @include small {
-      padding: 13px 10px 0;
+      padding: 3px 10px 0;
       text-align: center;
     }
   }
@@ -186,7 +186,7 @@
     width: 65%;
     height: 1px;
     background-color: #E0E0E0;
-    margin: 30px auto 0;
+    margin: 5% auto 0;
 
     @include small {
       display: block;

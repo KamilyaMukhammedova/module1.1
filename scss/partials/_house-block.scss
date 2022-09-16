@@ -5,26 +5,42 @@
     padding-bottom: 15%;
   }
 
-  &__inner {
+  //&__inner {
+  //  padding: 21% 0 20.6% 0;
+  //  @include medium {
+  //    padding: 20.5% 0;
+  //  }
+  //}
+
+  &_bg-house {
+    background:  url(../../images/house.jpg) 50% 50%/100% no-repeat;
     padding: 21% 0 20.6% 0;
+
+    //@include medium {
+    //  padding: 20.5% 0;
+    //}
+  }
+
+  &_bg-house2 {
+    background:  url(../../images/staircase.jpg) 50% 50%/100% no-repeat;
+    padding: 21.13% 0 20.6% 0;
+
+    //@include medium {
+    //  padding: 20.5% 0;
+    //}
+  }
+
+  &_bg-house, &_bg-house2 {
     @include medium {
       padding: 20.5% 0;
     }
   }
 
-  &_bg-house {
-    background:  url(../../images/house.jpg) 50% 50%/100% no-repeat;
-  }
-
-  &_bg-house2 {
-    background:  url(../../images/staircase.jpg) 50% 50%/100% no-repeat;
-  }
-
   &__content {
     width: 19%;
     position: absolute;
-    top: 42%;
-    right: 6%;
+    //top: 42%;
+    //right: 6%;
 
     @include medium {
       width: 27%;
@@ -37,6 +53,11 @@
       text-align: center;
       padding: 0 10px;
     }
+  }
+
+  &_right {
+    top: 42%;
+    right: 6%;
   }
 
   &__text {
