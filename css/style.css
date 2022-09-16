@@ -448,12 +448,26 @@ a:hover {
   background: url(../../images/house.jpg) 50% 50%/100% no-repeat;
   padding: 21% 0 20.6% 0;
 }
+@media screen and (max-width: 768px) {
+  .house-block_bg-house {
+    padding: 20.5% 0;
+  }
+}
 .house-block_bg-house2 {
   background: url(../../images/staircase.jpg) 50% 50%/100% no-repeat;
   padding: 21.13% 0 20.6% 0;
 }
 @media screen and (max-width: 768px) {
-  .house-block_bg-house, .house-block_bg-house2 {
+  .house-block_bg-house2 {
+    padding: 20.5% 0;
+  }
+}
+.house-block_bg-house3 {
+  background: url(../../images/swirling.jpg) 50% 50%/100% no-repeat;
+  padding: 21.13% 0 20.6% 0;
+}
+@media screen and (max-width: 768px) {
+  .house-block_bg-house3 {
     padding: 20.5% 0;
   }
 }
@@ -478,6 +492,22 @@ a:hover {
 .house-block_right {
   top: 42%;
   right: 6%;
+}
+@media screen and (max-width: 576px) {
+  .house-block_right {
+    left: 0;
+    top: 73%;
+  }
+}
+.house-block_left {
+  top: 42%;
+  left: 12.5%;
+}
+@media screen and (max-width: 576px) {
+  .house-block_left {
+    left: 0;
+    top: 73%;
+  }
 }
 .house-block__text {
   margin-top: 0;
@@ -728,6 +758,7 @@ a:hover {
 @media screen and (max-width: 576px) {
   .black-block {
     text-align: center;
+    margin-top: 20px;
   }
 }
 .black-block__inner-flex {
@@ -844,9 +875,11 @@ a:hover {
   line-height: 18px;
   margin-bottom: 0;
 }
-.black-block__img {
-  width: 80px;
-  height: 30px;
+@media screen and (max-width: 768px) {
+  .black-block__img {
+    width: 80px;
+    height: 30px;
+  }
 }
 @media screen and (max-width: 576px) {
   .black-block__img {
@@ -854,9 +887,11 @@ a:hover {
     height: 25px;
   }
 }
-.black-block_img-xl {
-  width: 80px;
-  height: 50px;
+@media screen and (max-width: 768px) {
+  .black-block_img-xl {
+    width: 80px;
+    height: 50px;
+  }
 }
 @media screen and (max-width: 576px) {
   .black-block_img-xl {
