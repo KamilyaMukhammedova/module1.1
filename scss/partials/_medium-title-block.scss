@@ -1,0 +1,21 @@
+.medium-title-block {
+  &__title {
+    font-size: 39px;
+    line-height: 42px;
+
+    @include large {
+      font-size: 36px;
+      line-height: 39px;
+    }
+
+    @include medium {
+      font-size: 34px;
+      line-height: 35px;
+    }
+
+    @include small {
+      font-size: 27px;
+      line-height: 30px;
+    }
+  }
+}

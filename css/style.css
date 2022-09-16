@@ -491,3 +491,227 @@ a:hover {
     margin-bottom: 5px;
   }
 }
+
+.our-process {
+  text-align: center;
+  padding: 6% 0 6.5% 0;
+}
+@media screen and (max-width: 768px) {
+  .our-process {
+    text-align: left;
+  }
+}
+@media screen and (max-width: 768px) {
+  .our-process__box {
+    padding-left: 33px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .our-process__box {
+    padding: 13px 10px 0;
+    text-align: center;
+  }
+}
+.our-process__inner-flex {
+  display: flex;
+  justify-content: space-between;
+  width: 81%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+  .our-process__inner-flex {
+    display: block;
+    padding: 0 30px 0 33px;
+    margin: 0;
+    width: 100%;
+  }
+}
+.our-process__column-block {
+  padding-top: 45px;
+  font-size: 15px;
+  width: 30%;
+}
+@media screen and (max-width: 768px) {
+  .our-process__column-block {
+    width: 100%;
+    padding-top: 25px;
+  }
+}
+.our-process__mini-title {
+  font-size: 18px;
+  line-height: 26px;
+  margin: 9px 0 0 27px;
+}
+@media screen and (max-width: 997px) {
+  .our-process__mini-title {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .our-process__mini-title {
+    margin-left: 0;
+    line-height: 10px;
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .our-process__mini-title {
+    text-align: center;
+    font-size: 14px;
+  }
+}
+.our-process_mini-t2 {
+  margin-left: 0;
+}
+.our-process_img1 {
+  margin-left: 28px;
+}
+.our-process_text-p1 {
+  padding: 0 21px 0 49px;
+  margin-top: 9px;
+}
+@media screen and (max-width: 997px) {
+  .our-process_text-p1 {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .our-process_text-p1 {
+    font-size: 13px;
+  }
+}
+.our-process_text-p2 {
+  padding: 0 33px 0 30px;
+  margin-top: 9px;
+  font-size: 16px;
+}
+@media screen and (max-width: 997px) {
+  .our-process_text-p2 {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .our-process_text-p2 {
+    font-size: 13px;
+  }
+}
+.our-process_img3 {
+  margin-right: 25px;
+}
+@media screen and (max-width: 997px) {
+  .our-process_img3 {
+    margin-right: 0;
+  }
+}
+.our-process_mini-t3 {
+  width: 30%;
+  margin-left: 31%;
+}
+@media screen and (max-width: 997px) {
+  .our-process_mini-t3 {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+.our-process_text-p3 {
+  padding: 0 44px 0 20px;
+  margin-top: 9px;
+  font-size: 16px;
+}
+@media screen and (max-width: 997px) {
+  .our-process_text-p3 {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .our-process_text-p3 {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 997px) {
+  .our-process__img-block {
+    width: 40%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .our-process__img-block {
+    width: 13%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .our-process__img-block {
+    width: 18%;
+  }
+}
+@media screen and (max-width: 997px) {
+  .our-process__img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 997px) {
+  .our-process_img-block-w2 {
+    width: 46%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .our-process_img-block-w2 {
+    width: 15%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .our-process_img-block-w2 {
+    width: 21%;
+  }
+}
+.our-process__text {
+  color: #717171;
+}
+@media screen and (max-width: 576px) {
+  .our-process__text {
+    text-align: center;
+  }
+}
+.our-process__border {
+  display: none;
+  width: 65%;
+  height: 1px;
+  background-color: #E0E0E0;
+  margin: 30px auto 0;
+}
+@media screen and (max-width: 576px) {
+  .our-process__border {
+    display: block;
+  }
+}
+
+.medium-title-block__title {
+  font-size: 39px;
+  line-height: 42px;
+}
+@media screen and (max-width: 997px) {
+  .medium-title-block__title {
+    font-size: 36px;
+    line-height: 39px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .medium-title-block__title {
+    font-size: 34px;
+    line-height: 35px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .medium-title-block__title {
+    font-size: 27px;
+    line-height: 30px;
+  }
+}

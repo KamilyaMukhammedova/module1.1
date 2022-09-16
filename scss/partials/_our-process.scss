@@ -1,0 +1,195 @@
+.our-process {
+  text-align: center;
+  padding: 6% 0 6.5% 0;
+
+  @include medium {
+    text-align: left;
+  }
+
+  &__box {
+    @include medium {
+      padding-left: 33px;
+    }
+
+    @include small {
+      padding: 13px 10px 0;
+      text-align: center;
+    }
+  }
+
+  &__inner-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 81%;
+    margin: 0 auto;
+
+    @include medium {
+      display: block;
+      padding: 0 30px 0 33px;
+      margin: 0;
+      width: 100%;
+    }
+  }
+
+  &__column-block {
+    padding-top: 45px;
+    font-size: 15px;
+    width: 30%;
+
+    @include medium {
+      width: 100%;
+      padding-top: 25px;
+    }
+  }
+
+  &__mini-title {
+    font-size: 18px;
+    line-height: 26px;
+    margin: 9px 0 0 27px;
+
+    @include large {
+      font-size: 17px;
+    }
+
+    @include medium {
+      margin-left: 0;
+      line-height: 10px;
+      font-size: 17px;
+    }
+
+    @include small {
+      text-align: center;
+      font-size: 14px;
+    }
+  }
+
+  &_mini-t2 {
+    margin-left: 0;
+  }
+
+  &_img1 {
+    margin-left: 28px;
+  }
+
+  &_text-p1 {
+    padding: 0 21px 0 49px;
+    margin-top: 9px;
+
+    @include large {
+      font-size: 14px;
+      line-height: 22px;
+      padding: 0;
+    }
+
+    @include small {
+      font-size: 13px;
+    }
+  }
+
+  &_text-p2 {
+    padding: 0 33px 0 30px;
+    margin-top: 9px;
+    font-size: 16px;
+
+    @include large {
+      font-size: 14px;
+      line-height: 22px;
+      padding: 0;
+    }
+
+    @include small {
+      font-size: 13px;
+    }
+  }
+
+  &_img3 {
+    margin-right: 25px;
+
+    @include large {
+      margin-right: 0;
+    }
+  }
+
+  &_mini-t3 {
+    width: 30%;
+    margin-left: 31%;
+
+    @include large {
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+
+  &_text-p3 {
+    padding: 0 44px 0 20px;
+    margin-top: 9px;
+    font-size: 16px;
+
+    @include large {
+      font-size: 14px;
+      line-height: 22px;
+      padding: 0;
+    }
+
+    @include small {
+      font-size: 13px;
+    }
+  }
+
+  &__img-block {
+    @include large {
+      width: 40%;
+      margin: 0 auto;
+    }
+
+    @include medium {
+      width: 13%;
+    }
+
+    @include small {
+      width: 18%;
+    }
+  }
+
+  &__img {
+    @include large {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  &_img-block-w2 {
+    @include large {
+      width: 46%;
+      margin: 0 auto;
+    }
+
+    @include medium {
+      width: 15%;
+    }
+
+    @include small {
+      width: 21%;
+    }
+  }
+
+  &__text {
+    color: #717171;
+
+    @include small {
+      text-align: center;
+    }
+  }
+
+  &__border {
+    display: none;
+    width: 65%;
+    height: 1px;
+    background-color: #E0E0E0;
+    margin: 30px auto 0;
+
+    @include small {
+      display: block;
+    }
+  }
+}
