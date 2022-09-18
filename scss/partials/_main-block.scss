@@ -104,9 +104,17 @@
 
   &__btn-link {
     margin: 13px 0 0 6px;
+    padding: 11px 34px 10px 32px;
 
     @include large {
       margin: 0;
+      padding: 7px 15px;
+      font-size: 12px;
+    }
+
+    @include small {
+      padding: 3px 14px;
+      font-size: 9px;
     }
   }
 }

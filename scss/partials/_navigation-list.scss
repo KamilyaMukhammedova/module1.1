@@ -30,5 +30,25 @@
 
   &__btn-link {
     margin-left: 2px;
+    padding: 11px 29px 10px 22px;
+    letter-spacing: 0.4px;
+
+    @include large {
+      font-size: 15px;
+      border: none;
+      padding: 0;
+      background-color: inherit !important;
+      color: $darkGrey !important;
+    }
+
+    @include medium {
+      background-color: inherit !important;
+      color: $darkGrey !important;
+    }
+
+    @include small {
+      background-color: inherit !important;
+      color: $darkGrey !important;
+    }
   }
 }

@@ -1,0 +1,200 @@
+.projects-block {
+  background-color: $lightGrey;
+  padding: 7.8% 0 6.9% 0;
+
+  @include medium {
+    padding: 7.8% 20px 6.9%;
+  }
+
+  @include small {
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  &__content {
+    width: 55%;
+    padding: 0 40px 0 6px;
+
+    @include medium {
+      width: 100%;
+    }
+
+    @include small {
+      padding: 0;
+    }
+  }
+
+  &__text {
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 15px;
+
+    @include large {
+      font-size: 20px;
+      line-height: 28px;
+    }
+
+    @include medium {
+      font-size: 18px;
+      line-height: 24px;
+    }
+
+    @include small {
+      font-size: 15px;
+      line-height: 22px;
+    }
+  }
+
+  &__inner-flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 0 0;
+
+    @include small {
+      display: block;
+    }
+  }
+
+  &__box {
+    width: 31.8%;
+    position: relative;
+
+    @include small {
+      width: 50%;
+      margin: 0 auto 10px;
+    }
+  }
+
+  &__box:hover &__text-absolute {
+    display: block;
+  }
+
+  &__box:hover &__btn-link-black  {
+    display: block;
+  }
+
+  &_box1 {
+    margin-left: 8px;
+
+    @include small {
+      margin: 0 auto;
+    }
+  }
+
+  &_box2 {
+    margin-right: 8px;
+
+    @include small {
+      margin: 0 auto;
+    }
+  }
+
+  &_box1:hover &__text-absolute {
+    display: block;
+  }
+
+  &_box1:hover &__btn-link-black  {
+    display: block;
+  }
+
+  &_box2:hover &__text-absolute {
+    display: block;
+  }
+
+  &_box2:hover &__btn-link-black  {
+    display: block;
+  }
+
+  &__img {
+    width: 100%;
+    height: auto;
+  }
+
+  &__btn-block {
+    text-align: center;
+    margin-top: 35px;
+
+    @include small {
+      margin-top: 20px;
+    }
+  }
+
+  &__btn-link {
+    padding: 11px 50px 10px 42px;
+    letter-spacing: 0.4px;
+
+
+    @include large {
+      margin: 0;
+      font-size: 12px;
+      padding: 11px 50px 10px 42px;
+    }
+
+    @include medium {
+      margin: 0;
+      font-size: 11px;
+      padding: 9px 15px;
+    }
+
+    @include small {
+      padding: 5px 25px;
+      font-size: 9px;
+    }
+  }
+
+  &__text-grey {
+    font-size: 23px;
+    line-height: 30px;
+    color:$lightBlack;
+
+    @include large {
+      font-size: 17px;
+      line-height: 20px;
+    }
+
+    @include medium {
+      font-size: 13px;
+      line-height: 18px;
+    }
+  }
+
+  &__text-absolute {
+    position: absolute;
+    top: 6%;
+    left: 11%;
+    display: none;
+
+    @include small {
+      text-align: left;
+    }
+  }
+
+  &__link-absolute {
+    @include large {
+      font-size: 10px;
+    }
+  }
+
+  &__small-text {
+    margin: 12px 0 0;
+  }
+
+  &__btn-link-black {
+    position: absolute;
+    bottom: 10%;
+    left: 11%;
+    letter-spacing: 0.4px;
+    padding: 11px 23px 10px 22px;
+    display: none;
+
+    @include large {
+      padding: 11px 15px 10px;
+      font-size: 12px;
+    }
+
+    @include medium {
+      padding: 9px 12px;
+      font-size: 10px;
+    }
+  }
+}
