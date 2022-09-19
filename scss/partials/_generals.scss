@@ -17,6 +17,10 @@ body {
     line-height: 22px;
   }
 
+  @include medium {
+    overflow-x: hidden;
+  }
+
   @include small {
     font-size: 13px;
   }
