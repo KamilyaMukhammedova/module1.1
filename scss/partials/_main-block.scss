@@ -1,5 +1,4 @@
 .main-block {
-
   &__inner-flex {
     display: flex;
     align-items: stretch;
@@ -25,25 +24,9 @@
 
     @include small {
       text-align: center;
+      padding: 3% 5% 5%;
     }
   }
-
-  //&__logo-text {
-  //  text-transform: uppercase;
-  //  letter-spacing: 2px;
-  //  line-height: 20px;
-  //  font-size: 14px;
-  //  margin-top: 12px;
-  //
-  //  @include large {
-  //    font-size: 12px;
-  //    line-height: 17px;
-  //  }
-  //
-  //  @include small {
-  //    font-size: 8px;
-  //  }
-  //}
 
   &__small-text {
     margin-top: 12px;

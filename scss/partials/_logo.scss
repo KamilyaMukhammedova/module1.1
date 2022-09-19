@@ -1,10 +1,13 @@
 .logo {
-
   &_img-header {
     width: 86%;
 
     @include small {
       width: 70%;
     }
+  }
+
+  &_img-footer {
+    width: 55%;
   }
 }

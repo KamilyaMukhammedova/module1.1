@@ -1,5 +1,6 @@
 .team-block {
   padding: 6.6% 12px 6.3% 24px;
+  background-color: $mainBgColor;
 
   @include small {
     text-align: center;

@@ -72,6 +72,11 @@
   &__text {
     margin-top: 0;
 
+    @include medium {
+      font-size: 11px;
+      line-height: 16px;
+    }
+
     @include small {
       font-size: 11px;
     }
