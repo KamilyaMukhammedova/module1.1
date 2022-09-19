@@ -133,7 +133,7 @@
     @include medium {
       margin: 0;
       font-size: 11px;
-      padding: 9px 15px;
+      padding: 9px 25px;
     }
 
     @include small {
@@ -195,6 +195,11 @@
     @include medium {
       padding: 9px 12px;
       font-size: 10px;
+    }
+
+    @include small {
+      padding: 5px 10px;
+      font-size: 8px;
     }
   }
 }

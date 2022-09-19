@@ -282,13 +282,13 @@ a:hover {
 @media screen and (max-width: 997px) {
   .main-block__btn-link {
     margin: 0;
-    padding: 7px 15px;
+    padding: 9px 25px;
     font-size: 12px;
   }
 }
 @media screen and (max-width: 576px) {
   .main-block__btn-link {
-    padding: 3px 14px;
+    padding: 5px 25px;
     font-size: 9px;
   }
 }
@@ -1042,7 +1042,7 @@ a:hover {
   .projects-block__btn-link {
     margin: 0;
     font-size: 11px;
-    padding: 9px 15px;
+    padding: 9px 25px;
   }
 }
 @media screen and (max-width: 576px) {
@@ -1105,5 +1105,203 @@ a:hover {
   .projects-block__btn-link-black {
     padding: 9px 12px;
     font-size: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .projects-block__btn-link-black {
+    padding: 5px 10px;
+    font-size: 8px;
+  }
+}
+
+.team-block {
+  padding: 6.6% 12px 6.3% 24px;
+}
+@media screen and (max-width: 576px) {
+  .team-block {
+    text-align: center;
+    padding: 6.6% 20px 6.3% 20px;
+  }
+}
+.team-block__inner-flex {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .team-block__inner-flex {
+    display: block;
+  }
+}
+.team-block__box1 {
+  width: 30%;
+}
+@media screen and (max-width: 997px) {
+  .team-block__box1 {
+    width: 35%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .team-block__box1 {
+    width: 100%;
+  }
+}
+.team-block__box2 {
+  display: flex;
+  width: 70%;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 997px) {
+  .team-block__box2 {
+    width: 65%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .team-block__box2 {
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 576px) {
+  .team-block__box2 {
+    display: block;
+  }
+}
+.team-block__box2-item {
+  width: 49%;
+  display: flex;
+  padding: 14px 30px 0 41px;
+  margin-bottom: 31px;
+}
+@media screen and (max-width: 997px) {
+  .team-block__box2-item {
+    padding: 0 0 0 18px;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .team-block__box2-item {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .team-block__box2-item {
+    width: 80%;
+    margin: 0 auto 20px;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+.team-block__name {
+  display: block;
+  font-size: 17px;
+  line-height: 11px;
+}
+@media screen and (max-width: 997px) {
+  .team-block__name {
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .team-block__name {
+    font-size: 15px;
+    line-height: 15px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .team-block__name {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
+.team-block__position {
+  font-size: 14px;
+  line-height: 14px;
+}
+@media screen and (max-width: 768px) {
+  .team-block__position {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .team-block__position {
+    font-size: 11px;
+  }
+}
+.team-block__text {
+  font-size: 15px;
+}
+@media screen and (max-width: 576px) {
+  .team-block__text {
+    font-size: 13px;
+  }
+}
+.team-block__btn-link {
+  padding: 11px 37px 10px 37px;
+  margin-top: 14px;
+  letter-spacing: 0.4px;
+}
+@media screen and (max-width: 997px) {
+  .team-block__btn-link {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .team-block__btn-link {
+    padding: 9px 25px;
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .team-block__btn-link {
+    padding: 5px 25px;
+    font-size: 9px;
+  }
+}
+.team-block__img-block {
+  margin-right: 30px;
+}
+@media screen and (max-width: 997px) {
+  .team-block__img-block {
+    margin-right: 15px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .team-block__img-block {
+    text-align: right;
+    width: 50%;
+  }
+}
+.team-block__member-block {
+  padding-top: 28px;
+}
+@media screen and (max-width: 997px) {
+  .team-block__member-block {
+    padding-top: 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .team-block__member-block {
+    width: 40%;
+    text-align: left;
+  }
+}
+.team-block_pl {
+  padding-left: 31px;
+}
+@media screen and (max-width: 997px) {
+  .team-block_pl {
+    padding-left: 18px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .team-block_pl {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .team-block__img {
+    width: 75px;
+    height: 75px;
   }
 }

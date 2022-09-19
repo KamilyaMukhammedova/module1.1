@@ -1,0 +1,179 @@
+.team-block {
+  padding: 6.6% 12px 6.3% 24px;
+
+  @include small {
+    text-align: center;
+    padding: 6.6% 20px 6.3% 20px;
+  }
+
+  &__inner-flex {
+    display: flex;
+    justify-content: space-between;
+
+    @include medium {
+      display: block;
+    }
+  }
+
+  &__box1 {
+    width: 30%;
+
+    @include large {
+      width: 35%;
+    }
+
+    @include medium {
+      width: 100%;
+    }
+  }
+
+  &__box2 {
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+
+    @include large {
+      width: 65%;
+    }
+
+    @include medium {
+      width: 100%;
+      margin-top: 20px;
+      justify-content: space-between;
+    }
+
+    @include small {
+      display: block;
+    }
+  }
+
+  &__box2-item {
+    width: 49%;
+    display: flex;
+    padding: 14px 30px 0 41px;
+    margin-bottom: 31px;
+
+    @include large {
+      padding: 0 0 0 18px;
+      align-items: center;
+    }
+
+    @include medium {
+      padding: 0;
+    }
+
+    @include small {
+      width: 80%;
+      margin: 0 auto 20px;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+  }
+
+  &__name {
+    display: block;
+    font-size: 17px;
+    line-height: 11px;
+
+    @include large {
+      line-height: 20px;
+    }
+
+    @include medium {
+      font-size: 15px;
+      line-height: 15px;
+    }
+
+    @include small {
+      font-size: 14px;
+      line-height: 14px;
+    }
+  }
+
+  &__position {
+    font-size: 14px;
+    line-height: 14px;
+
+    @include medium {
+      font-size: 12px;
+    }
+
+    @include small {
+      font-size: 11px;
+    }
+  }
+
+  &__text {
+    font-size: 15px;
+
+    @include small {
+      font-size: 13px;
+    }
+  }
+
+  &__btn-link {
+    padding: 11px 37px 10px 37px;
+    margin-top: 14px;
+    letter-spacing: 0.4px;
+
+    @include large {
+      font-size: 12px;
+    }
+
+    @include medium {
+      padding: 9px 25px;
+      font-size: 11px;
+    }
+
+    @include small {
+      padding: 5px 25px;
+      font-size: 9px;
+    }
+  }
+
+  &__img-block {
+    margin-right: 30px;
+
+    @include large {
+      margin-right: 15px;
+    }
+
+    @include small {
+      text-align: right;
+      width: 50%;
+    }
+  }
+
+  &__member-block {
+    padding-top: 28px;
+
+    @include large {
+      padding-top: 0;
+    }
+
+    @include small {
+      width: 40%;
+      text-align: left;
+    }
+  }
+
+  &_pl {
+    padding-left: 31px;
+
+    @include large {
+      padding-left: 18px;
+    }
+
+    @include small {
+      padding-left: 0;
+    }
+  }
+
+  &__img {
+    @include medium {
+      width: 75px;
+      height: 75px;
+    }
+  }
+}
